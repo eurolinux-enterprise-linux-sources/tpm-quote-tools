@@ -1,6 +1,6 @@
 Name:		tpm-quote-tools
 Version:	1.0.2
-Release:	1%{?dist}
+Release:	3%{?dist}
 Source0:	http://downloads.sourceforge.net/tpmquotetools/%{name}-%{version}.tar.gz
 
 URL:		http://sf.net/projects/tpmquotetools
@@ -37,6 +37,12 @@ rm -rf %{buildroot}
 %{_mandir}/man8/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.2-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.2-2
+- Mass rebuild 2013-12-27
+
 * Wed Mar 27 2013 John D. Ramsdell <ramsdell@gootoo.mitre.org> - 1.0.2-1
 - Add support for ARM 64 bit CPU architecture (aarch64)
 
